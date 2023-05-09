@@ -53,5 +53,10 @@
     [class^="link-header"]:hover::before{
         width: 100%;
     }
+    /* END HEADER */
+    .home{
+        width: 100vw;
+        height: 100vh;
+        background-color: #ff1d4f;
+    }
 }
-/* END HEADER */
