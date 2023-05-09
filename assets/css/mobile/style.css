@@ -57,6 +57,54 @@
     .home{
         width: 100vw;
         height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .type-home{
+        width: 80vw;
+        height: 90vh;
+    }
+    .h3-home{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .h1-home{
+        margin-left: 6%;
+        font-size: 1.7rem;
+    }
+    .text-home{
+        font-size: 1.9rem;
+        color: #ff1d4f;
+    }
+    .animationhome{
+        animation: stylehome 5s infinite;
+    }
+    @keyframes stylehome {
+        from{
+            color: #fff;
+        }
+        to{
+            color: #27add9;
+        }
+    }
+    .btn-home{
+        height: 5%;
+        display: flex;
+        margin-left: 5%;
+    }
+    .home-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff1d4e8e;
+        border: 1px solid transparent;
+        border-radius: 3%;
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 15px 10px;
+        margin: 2px;
+    }
+    .home-btn:hover{
         background-color: #ff1d4f;
     }
 }
