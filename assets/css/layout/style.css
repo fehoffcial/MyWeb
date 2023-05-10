@@ -123,24 +123,38 @@
     display: flex;
     align-items: center;
 }
-.photo-home{
-    width: 60%;
+.crypto-code{
+    width: 70%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 30%;
-    font-size: 2.5rem;
-    font-weight: 200;
-    background-size: 100% 100%;
     animation: homefloat 2s infinite ease-in-out;
     display: flex;
     align-items: flex-end;
+    flex-wrap: nowrap;
+}
+.code-text{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.space-code{
+    color: #0a0b0c;
+}
+.code-red{
+    color: #ff1d1d;
+}
+.code-blue{
+    color: #27add9;
+}
+.code-init{
+    color: #a207df;
 }
 @keyframes homefloat{
     0%{
         transform: translatey(0px);
+
     }
     50%{
-        transform: translatey(-30px);
+        transform: translatey(-10px);
     }
     100%{
         transform: translatey(0px);
